@@ -1,0 +1,263 @@
+.desktop1-container1 {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.desktop1-desktop1 {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.desktop1-frame1 {
+  top: 0px;
+  right: 0px;
+  width: 1433px;
+  height: 116.5px;
+  display: grid;
+  position: absolute;
+  flex-shrink: 0;
+  place-items: center;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+ 
+.desktop1e87669c333p3371 {
+  width: auto;
+  height: auto;
+  align-self: stretch;
+}
+ 
+.desktop1-text10 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 25px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-text14 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 25px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-text15 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 25px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-text19 {
+  height: auto;
+  display: grid;
+  font-size: 20px;
+  align-self: stretch;
+  box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 25px;
+  place-items: center;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  font-stretch: normal;
+  border-radius: var(--dl-layout-radius-radius4);
+  animation-name: none;
+  animation-delay: 0s;
+  text-decoration: none;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+ 
+.desktop1-button {
+  width: 169px;
+  height: 124px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.desktop1-content {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  border-radius: 100px;
+  justify-content: center;
+  background-color: rgba(71, 152, 60, 1);
+}
+ 
+.desktop1-statelayer {
+  gap: 8px;
+  display: flex;
+  padding: 16px 24px;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.desktop1-text23 {
+  color: var(--dl-color-m3_sys_light-onprimary);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.desktop1-text24 {
+  top: 185px;
+  color: rgba(0, 0, 0, 1);
+  width: 1440px;
+  height: auto;
+  position: absolute;
+  font-size: 100px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 60px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-text25 {
+  top: 306px;
+  left: 351px;
+  color: rgba(0, 0, 0, 1);
+  width: 738px;
+  height: auto;
+  position: absolute;
+  font-size: 50px;
+  font-style: italic;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 300;
+  line-height: 50px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-frame2 {
+  gap: 10px;
+  top: 565px;
+  left: 0px;
+  width: 1440px;
+  height: 508px;
+  display: flex;
+  padding: 10px;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background-color: rgba(255, 240, 80, 1);
+}
+ 
+.desktop1-zaralogopngzaralogopngandvectorlogoimg4096x40961 {
+  top: -15px;
+  left: 15px;
+  width: 309px;
+  height: 309px;
+  position: absolute;
+}
+ 
+.desktop1-hmlogo1 {
+  top: 254px;
+  left: 994px;
+  width: 215px;
+  height: 142px;
+  position: absolute;
+}
+ 
+.desktop1-forever211 {
+  top: 268px;
+  left: 99px;
+  width: 420px;
+  height: 86px;
+  position: absolute;
+}
+ 
+.desktop1-uniqlo-logo20061 {
+  top: 44px;
+  left: 1175px;
+  width: 157px;
+  height: 157px;
+  position: absolute;
+}
+ 
+.desktop1-cool-dri-performance-short-sleeve-t-shirt4820-deep-royal1 {
+  top: 444px;
+  left: 439px;
+  width: 561px;
+  height: 561px;
+  position: absolute;
+}
+ 
+.desktop1-link {
+  display: contents;
+}
+ 
+.desktop1-container2 {
+  right: 50px;
+  border: 1px solid #ffffff5c;
+  bottom: 30px;
+  display: flex;
+  z-index: 22;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(31, 31, 31, 0.4);
+  min-height: auto;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 12px;
+  border-radius: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(41, 41, 41, 0.41);
+}
+ 
+.desktop1-icon1 {
+  width: 24px;
+  margin-right: 4px;
+}
+ 
+.desktop1-text26 {
+  color: white;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
