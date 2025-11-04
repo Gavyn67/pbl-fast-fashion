@@ -18,7 +18,7 @@
   background-color: rgba(255, 255, 255, 1);
 }
  
-.desktop1-frame1 {
+.topbarframe {
   left: 50%;
   transform: translateX(-50%);
   width: 80%;
@@ -32,20 +32,25 @@
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+
+.desktop1-indeximg {
+  transition-property: opacity;
+  transition-duration: 1s;
+}
  
 .desktop1-chatsworthlogo {
-  transform-origin: center center;
   position: absolute;
-  left: 3.5%;
-  top: 6%;
-  transform: translate(-50%, -50%);
+  left: 3px;
+  top: 3px;
   width: 130px;
   height: 130px;
   align-self: stretch;
+  filter: drop-shadow(1px 1px 2px rgba(0,0,0, 0.2));
 }
  
-.desktop1-text10 {
-  color: rgba(0, 0, 0, 1);
+.topbartext {
+  color: rgb(66, 66, 66);
   height: auto;
   font-size: 30px;
   font-style: Semi Bold;
@@ -55,91 +60,27 @@
   line-height: 30px;
   font-stretch: normal;
   text-decoration: none;
+  filter: drop-shadow(1px 1px 2px rgba(0,0,0, 0.1));
 }
  
-.desktop1-text14 {
+.datasentence {
+  position: absolute;
+  left: 85%;
+  transform: translateX(-50%);
+  top: 140px;
   color: rgba(0, 0, 0, 1);
-  height: auto;
+  width: 300px;
+  height: 300px;
   font-size: 30px;
   font-style: Semi Bold;
   text-align: center;
   font-family: Inter;
-  font-weight: 700;
-  line-height: 30px;
+  font-weight: 400;
+  line-height: auto;
   font-stretch: normal;
   text-decoration: none;
 }
- 
-.desktop1-text15 {
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  font-size: 30px;
-  font-style: Semi Bold;
-  text-align: center;
-  font-family: Inter;
-  font-weight: 700;
-  line-height: 30px;;
-  font-stretch: normal;
-  text-decoration: none;
-}
- 
-.desktop1-text19 {
-  height: auto;
-  display: grid;
-  font-size: 30px;
-  box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
-  font-style: Semi Bold;
-  text-align: center;
-  font-family: Inter;
-  font-weight: 700;
-  line-height: 30px;;
-  place-items: center;
-  border-color: var(--dl-color-theme-neutral-dark);
-  border-width: 1px;
-  font-stretch: normal;
-  border-radius: var(--dl-layout-radius-radius4);
-  animation-name: none;
-  animation-delay: 0s;
-  text-decoration: none;
-  animation-duration: 300ms;
-  animation-direction: normal;
-  animation-iteration-count: 1;
-  animation-timing-function: ease;
-}
- 
-.desktop1-button {
-  width: 169px;
-  height: 124px;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-  justify-content: center;
-}
- 
-.desktop1-content {
-  display: flex;
-  overflow: hidden;
-  align-items: center;
-  border-radius: 100px;
-  justify-content: center;
-  background-color: rgba(71, 152, 60, 1);
-}
- 
-.desktop1-statelayer {
-  gap: 8px;
-  display: flex;
-  padding: 16px 24px;
-  align-items: center;
-  justify-content: center;
-}
- 
-.desktop1-text23 {
-  color: var(--dl-color-m3_sys_light-onprimary);
-  height: auto;
-  text-align: left;
-  line-height: 24px;
-}
- 
+
 .endfastfashion {
   position: absolute;
   left: 50%;
@@ -190,47 +131,56 @@
   flex-shrink: 0;
   border-radius: 50px;
   background-color: rgba(255, 240, 80, 1);
+  filter: drop-shadow(2px -5px 5px rgba(0, 0, 0, 0.1));
 }
  
 .desktop1-zaralogopngzaralogopngandvectorlogoimg4096x40961 {
   position: absolute;
-  left: 20%;
-  transform: translateX(1%);
-  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  transform: translateX(-550px);
+  top: -50px;
   width: 309px;
   height: 309px;
+  opacity: 0;
 }
  
 .desktop1-hmlogo1 {
   position: absolute;
-  left: 65%;
+  left: 50%;
   transform: translateX(-50%);
+  transform: translateX(200px);
   top: 254px;
   width: 215px;
   height: 142px;
   position: absolute;
+  opacity: 0;
 }
  
 .desktop1-forever211 {
   position: absolute;
-  left: 30%;
+  left: 50%;
   transform: translateX(-50%);
+  transform: translateX(-580px);
   top: 268px;
   width: 420px;
   height: 86px;
   position: absolute;
+  opacity: 0;
 }
  
 .desktop1-uniqlo-logo20061 {
   position: absolute;
-  left: 70%;
+  left: 50%;
   transform: translateX(-50%);
+  transform: translateX(300px);
   top: 44px;
   width: 157px;
   height: 157px;
+  opacity: 0;
 }
  
-.desktop1-cool-dri-performance-short-sleeve-t-shirt4820-deep-royal1 {
+.desktop1-blueshirt {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -238,40 +188,8 @@
   width: 561px;
   height: 561px;
   position: absolute;
+  filter: drop-shadow(2px 5px 5px rgba(0, 0, 0, 0.5));
 }
- 
-.desktop1-link {
-  display: contents;
-}
- 
-.desktop1-container2 {
-  right: 50px;
-  border: 1px solid #ffffff5c;
-  bottom: 30px;
-  display: flex;
-  z-index: 22;
-  position: fixed;
-  box-shadow: 5px 5px 10px 0px rgba(31, 31, 31, 0.4);
-  min-height: auto;
-  align-items: center;
-  padding-top: 8px;
-  padding-left: 12px;
-  border-radius: 8px;
-  padding-right: 12px;
-  padding-bottom: 8px;
-  backdrop-filter: blur(6px);
-  background-color: rgba(41, 41, 41, 0.41);
-}
- 
-.desktop1-icon1 {
-  width: 24px;
-  margin-right: 4px;
-}
- 
-.desktop1-text26 {
-  color: white;
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-}
+
+
+
